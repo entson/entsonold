@@ -1,0 +1,75 @@
+.sm-logo {
+  height:90px;
+  width:90px;
+  vertical-align:middle;
+}
+.lrg-logo {
+  height:150px;
+  width:150px;
+  vertical-align:middle;
+}
+.logo-container {
+  text-align:center;
+}
+.lettering {
+  height:150px
+}
+.erin {
+  font-family:'Space Mono', monospace;
+  font-weight:bold;
+  font-size:50px;
+  text-align:center;
+  background-color: #286DA8;
+  color:#CD5360;
+}
+h1 {
+  font-family:'Space Mono', monospace;
+  font-weight:bold;
+  font-size:32px;
+  text-align:center;
+  background-color: #286DA8;
+  color:#CD5360;
+}
+.top {
+  font-family:'Work Sans', monospace;
+  font-weight:bold;
+  font-size:20px;
+  background-color: #286DA8;
+  color:#CD5360;
+  display: flex;
+}
+.top A {
+  color:#CD5360;
+  text-decoration:none;
+  width:25%;
+}
+h2{
+  font-family:'Work Sans', monospace;
+  color:#CD5360;
+}
+.head {
+  text-align:center;
+}
+.bodytext {
+  font-family:'Work Sans', sans-serif;
+  color:#CD5360;
+}
+.summer {
+  color:#286DA8;
+}
+.peach {
+  color:#CD5360
+}
+.field {
+  color:#837D4E
+}
+
+@media (max-width:800px){
+  .top{
+    
+    flex-direction:column;
+  }
+  .top A{
+    width:100%;
+  }
+}
